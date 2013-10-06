@@ -214,7 +214,8 @@ ul.posts span {
 }
 /* 3 Column settings */
 .threecol {
-  background:#eee;		/* right column background colour */
+  /* background:#eee; */		/* right column background colour */
+  background: url("/assets/bck.jpg") repeat scroll 0% 0% transparent;
 }
 .threecol .colmid {
   right:25%;			/* width of the right column */
