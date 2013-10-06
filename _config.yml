@@ -1,0 +1,5 @@
+name: Rechtsanwälte Henrich & Lipinsky
+markdown: redcarpet
+pygments: true
+timezone: Europe/Berlin
+layout: default
