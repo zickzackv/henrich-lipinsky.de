@@ -366,3 +366,26 @@ ul.mitarbeiter li.mitarbeiter img.image {
   float: right;
   width: 45%;
 }
+
+/*****************************************************************************/
+/*
+/* Publikationen
+/*
+/*****************************************************************************/
+
+ul.publikationen {
+
+}
+
+ul.publikationen li.publikation {
+  margin-top: 35px;
+}
+
+ul.publikationen li.publikation h3 {
+  margin: 0px;
+}
+
+ul.publikationen li.publikation p {
+  margin: 0px;
+  
+}
