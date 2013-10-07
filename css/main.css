@@ -227,6 +227,7 @@ ul.posts span {
   /* background:#f4f4f4; */	/* left column background colour */
   background: #2E5173;
   background: #506284;
+  background-image: url(/assets/bck.jpg);
 }
 .threecol .col1 {
   width:46%;			/* width of center column content (column width minus padding on either side) */
@@ -333,10 +334,12 @@ ul#navigation li {
 
 ul#navigation a {
   color: #FCC400;
+  color: black;
 }
 
 ul#navigation a:visited {
   color: #FCC400;
+  color: black;
 }
 
 ul#navigation li.last {
