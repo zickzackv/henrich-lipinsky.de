@@ -191,8 +191,10 @@ ul.posts span {
 .colmask {
   position:relative;	/* This fixes the IE7 overflow hidden bug */
   clear:both;
-  float:left;
+  /*  float:left; */   /* fixed width */
+  margin: 0 auto;
   width:100%;			
+  width:1000px;
   overflow:hidden;		/* This chops off any overhanging divs */
 }
 /* common column settings */
@@ -254,12 +256,15 @@ ul.posts span {
   /* background: black; */
   color: black;
   clear: both;
-  float: left;
   width: 100%; /* same as body */
+  width: 1000px;
   height: 400px;
   background-image: url("/assets/Stahlwerk.am.Kanal.head.jpeg");
   background-repeat: no-repeat; 
   background-position: 6% 40%;
+  /* float: left; */ /* fixed width */
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 5px;
   margin-bottom: 10px;
 }
