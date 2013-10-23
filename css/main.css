@@ -418,6 +418,7 @@ ul.publikationen li.publikation p {
 /*****************************************************************************/
 
 div.image img {
+  width: 459px;
   display: block;
   margin: 20px auto;
 }
