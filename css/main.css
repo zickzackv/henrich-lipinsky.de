@@ -368,6 +368,7 @@ ul.anwaelte li.anwalt {
 ul.anwaelte li.anwalt img.image {
   float: right;
   width: 45%;
+  margin-left: 10px;
 }
 
 /*****************************************************************************/
@@ -421,5 +422,16 @@ div.image img {
   width: 459px;
   display: block;
   margin: 20px auto;
+}
+
+/*****************************************************************************/
+/*
+/* Impressum
+/*
+/*****************************************************************************/
+
+p.support a:visited {
+  color: blue;
+  text-decoration: none;
 }
 
